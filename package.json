@@ -1,0 +1,11 @@
+{
+    "name": "generate-unique-named",
+    "version": "1.0.3",
+    "description": "generate-unique-name is for generation of a unique latin name, it is a library for generating random and unique latin names.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "luftwaffe1985",
+    "license": "ISC"
+  }
