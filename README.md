@@ -1,28 +1,28 @@
-## generate-unique-password
+## generate-unique-name
 
-generate-unique-password is a library for generating random and unique passwords.
+generate-unique-name is a library for generating random and unique latin names.
 
 ## Installation
 
 ```
-$ npm install generate-unique-password
+$ npm install generate-unique-name
 ```
 
 ---
 
 ## Usage
 
-generatePassword([option])
+generateName([option])
 
-- Generates one password with a given option (number). The passed option determines the length of the password.
+- Generates one name with a given option. The option determines the length of the name.
 - Returns a string.
 
 #### Example: ####
 
 ```
-const generator = require('generate-unique-password');
-generator.generatePassword(8);
-Output: qkqtuflq
+const generator = require('generate-unique-name');
+generator.generateName(8);
+Output: Drgguihq
 ```
 
 ---
@@ -35,4 +35,4 @@ ISC
 
 ## Keywords
 
-<span style="color:darkred;">**generate random unique password**</span>
+<span style="color:darkred;">**generate random unique latin name**</span>
